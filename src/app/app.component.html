@@ -1,0 +1,48 @@
+<div class="head-container">
+<div class="input">
+    <input matInput type="text" id="user_id" placeholder="Enter the user_id" #user_id>
+</div>
+</div>
+<pre></pre>
+<pre></pre>
+<div class="right-container">
+<div class="users-btn">
+    <button mat-button routerLink="users-component" type = "submit" (click) = 'changesearch_id(user_id.value)'>
+        USERS</button>
+</div>
+<pre></pre>
+<div class="posts-btn"> 
+    <button mat-button routerLink="posts-component" type="submit" (click) = 'changesearch_id(user_id.value)'>
+        POSTS
+    </button>
+</div>
+<pre></pre>
+<div class="comments-btn"> 
+    <button mat-button routerLink="comments-component" type="submit" (click) = 'changesearch_id(user_id.value)'>
+        COMMENTS
+    </button>
+</div>
+<pre></pre>
+<div class="albums-btn"> 
+    <button mat-button routerLink="albums-component" type="submit" (click) = 'changesearch_id(user_id.value)'>
+        ALBUMS
+    </button>
+</div>
+<pre></pre>
+<div class="photos-btn"> 
+    <button mat-button routerLink="photos-component" type="submit" (click) = 'changesearch_id(user_id.value)'>
+        PHOTOS
+    </button>
+</div>
+<pre></pre>
+<div class="todos-btn"> 
+    <button mat-button routerLink="todos-component" type="submit" (click) = 'changesearch_id(user_id.value)'>
+        TODOS
+    </button>
+</div>
+</div>
+<div class="mid-container">
+<router-outlet></router-outlet>
+</div>
+<div class="left-container"></div>
+

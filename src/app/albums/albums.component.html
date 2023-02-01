@@ -1,0 +1,26 @@
+<!-- <div *ngFor ="let card of http_data">
+    <h1>{{card.userId}}</h1>
+    <p>{{card.id}}</p>
+    <p>{{card.title}}</p>
+</div> -->
+<head><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"></head>
+<div class="mid-container">
+ <div class="card" *ngFor="let card of http_data"> 
+    <div class="info">
+        <div class="profile-img">
+            <img src="https://images.squarespace-cdn.com/content/v1/5a99d01c5ffd206cdde00bec/7e125d62-e859-41ff-aa04-23e4e0040a33/image-asset.jpeg?format=1000w">
+        </div>
+        <div class="name"> {{card.id}} </div>
+        <div class="role">{{card.title}} </div>
+        <div class="icon">
+            <a href= "https://www.facebook.com"><i class="fab fa-facebook-square"  matTooltipPosition="after" matTooltip= "Facebook" ></i></a>
+            <a href={{card.twitter}} matTooltip= "Twitter"><i class="fab fa-twitter"></i></a>
+            <a href={{card.linkedIn}} matTooltip= "LinkedIn"><i class="fab fa-linkedin"></i></a>
+                 <!-- <span class="material-icons">
+                    facebook
+                    </span> -->
+        </div>
+    </div>  
+ 
+ </div>
+  </div>

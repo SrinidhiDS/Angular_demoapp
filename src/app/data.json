@@ -1,0 +1,34 @@
+[
+    {
+            "firstName": "John",
+            "lastName": "Brista",
+            "role": "developer",
+            "fb": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "linkedIn": "https://www.linkedIn.com"
+    },
+    {
+        "firstName": "Patrick",
+        "lastName": "Knott",
+        "role": "Tester",
+        "fb": "https://www.facebook.com",
+        "twitter": "https://www.twitter.com",
+        "linkedIn": "https://www.linkedIn.com"
+},
+{
+    "firstName": "James",
+    "lastName": "Ramos",
+    "role": "QA Team",
+    "fb": "https://www.facebook.com",
+    "twitter": "https://www.twitter.com",
+    "linkedIn": "https://www.linkedIn.com"
+},
+{
+    "firstName": "Mary",
+    "lastName": "Huntly",
+    "role": "Dev atEAM",
+    "fb": "https://www.facebook.com",
+    "twitter": "https://www.twitter.com",
+    "linkedIn": "https://www.linkedIn.com"
+}
+]
